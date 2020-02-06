@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc, char* argv[]){
+/*read in file*/
+  FILE* file=fopen(argv[1],'r');
+  int size=fgetc(file);
+  int array[size];
+  
+!=EOF;i++) {
+array[i]=
+}
+
+//insertion sort
+
+
+ return 0;
+}
